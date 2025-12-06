@@ -26,12 +26,12 @@ project-root/
 **How to run the backend locally
 cd backend
 pip install -r requirements.txt
-uvicorn main:app --host 0.0.0.0 --port 8000
+uvicorn main:app 
 
 **Running the backend with Docker
 cd backend
 docker build -t hotel-backend .
-docker run -p 8000:8000 hotel-backend
+docker run -p 
 
 ****Frontend (React)
 -  The frontend is built with React and communicates with the backend API.
